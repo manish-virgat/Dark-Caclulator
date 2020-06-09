@@ -9,6 +9,7 @@
 <body>
     <div class="calculator">
         <div>
+            <input type="text">
             <button onClick="number1(); enable()">1</button>
             <button onClick="number2(); enable()">2</button>
             <button onClick="number3(); enable()">3</button>
@@ -22,11 +23,13 @@
             <button onClick="number0(); enable()">0</button>
             <button id="disable5" onClick="calculate();">=</button>
         </div>
-        <button onClick="empty"()>C</button>
-        <button id="disable1" onclick="plus(); disable()">&plus;</button>
-        <button id="disable2" onclick="minus(); disable()">&minus;</button>
-        <button id="disable3" onclick="times(); disable()">&times;</button>
-        <button id="disable4" onclick="div(); disable()">&div;</button>
+        <div>
+            <button onClick="empty()";>C</button>
+            <button id="disable1" onclick="plus(); disable()">&plus;</button>
+            <button id="disable2" onclick="minus(); disable()">&minus;</button>
+            <button id="disable3" onclick="times(); disable()">&times;</button>
+            <button id="disable4" onclick="div(); disable()">&div;</button>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
