@@ -7,3 +7,4 @@
 ![JavaScript](https://img.shields.io/badge/frontend-javascript-yellow.svg?logo=javascript&style=flat-square)
 ## A basic calculator in dark mode made using HTML, CSS and JavaScript
 ## Made by Manish Virgat.
+### Leave a star if you love it, open for contributions
